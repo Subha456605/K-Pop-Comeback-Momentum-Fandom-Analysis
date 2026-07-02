@@ -1,4 +1,4 @@
-# 🎧 K-Pop Fandom Intelligence Dashboard
+# 🎧 Comeback Momentum, Chart Re-Entry, and Fandom Intensity Analysis of South KoreaTop 50 Playlist
 ### Comeback Momentum & Retention Analytics
 
 An interactive Streamlit dashboard that analyzes K-Pop chart performance, fandom loyalty, and comeback success using chart data. The dashboard introduces custom analytics metrics to measure artist momentum, fan engagement, retention, and chart re-entry behavior.
@@ -84,25 +84,12 @@ Used to quantify overall fandom engagement and loyalty.
 - Interactive Data Table
 - CSV Export Functionality
 
----
 
-## 🛠️ Tech Stack
-
-| Technology | Purpose |
-|------------|----------|
-| Python | Data Analysis |
-| Streamlit | Dashboard Development |
-| Pandas | Data Processing |
-| NumPy | Numerical Computation |
-| Plotly | Interactive Visualizations |
-| Matplotlib | Additional Analytics |
-
----
 
 ## 📁 Project Structure
 
 ```bash
-├── app.py
+├── dashboard.py
 ├── Atlantic_South_Korea.csv
 ├── logo.png
 ├── tbt_coverkpop_header.jpg
@@ -118,10 +105,10 @@ Used to quantify overall fandom engagement and loyalty.
 ![Overview](images/overview.png)
 
 ### Fandom Intensity Leaderboard
-![Leaderboard](images/leaderboard.png)
+![Leaderboard](images/fandom.png)
 
 ### Momentum Spike Analysis
-![Momentum](images/momentum.png)
+![Momentum](images/spike.png)
 
 ### Re-entry Status Analysis
 ![Re-entry](images/reentry.png)
